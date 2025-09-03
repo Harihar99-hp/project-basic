@@ -1,0 +1,36 @@
+.test-main {
+    height: 750px;
+    width: 100%;
+    background-color: blue;
+}
+.test-inside {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.white {
+    color: white;
+}
+.test-right {
+
+}
+.form-main {
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 500px;
+    width: 470px;
+}
+.form-head {
+    display: flex;
+    height: 50px;
+}
+.form-head button {
+    width: 50%;
+    background-color: transparent;
+    border: 0;
+}
+.form-head button.active {
+    border-bottom: 2px solid black;
+}
